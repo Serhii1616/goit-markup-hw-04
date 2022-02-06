@@ -57,6 +57,9 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* header - section */
@@ -131,18 +134,25 @@ body {
   list-style: none;
   margin-left: auto;
 }
-.contacts-items {
+.contacts-item {
+  margin-left: 50px;
+}
+
+.contacts-item:first-child {
+  margin-left: 0;
+}
+.contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
-  margin-left: 50px;
+
 }
 
-.contacts-items:hover,
-.contacts-items:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent);
 }
 
@@ -155,6 +165,20 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--footer-background-color);
+}
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, 
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+  ), 
+  url(../images/fon\ hero.jpg);
+  background-repeat: no-repeat;
+  background-position:center;  
+  border-style: cover;
 }
 
 .main-heading {
@@ -296,6 +320,10 @@ body {
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  min-height: 252px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pic {
   display: inline-block;
