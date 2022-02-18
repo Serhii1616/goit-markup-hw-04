@@ -362,8 +362,47 @@ margin-bottom: 30px;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
+
+  /* social-list */
+  .social-div {
+    padding-top: 16px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.social-item {
+  border-radius: 50%;
+  
+}
+.social-link-href {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  
+}
+.social-link-href:hover,
+.social-link-href:focus {
+background-color: var(--accent);
+color: var(--button-text-color);
+}
+.social-link-svg {
+  fill: currentColor;
+  
+}
+
 
 /* footer */
 
