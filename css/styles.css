@@ -367,7 +367,7 @@ margin-bottom: 30px;
 
   /* social-list */
   .social-div {
-    padding-top: 16px;
+    padding-top: 0px;
     padding-bottom: 30px;
     padding-left: 32px;
     padding-right: 32px;
@@ -379,10 +379,8 @@ margin-bottom: 30px;
   
 
 }
-.social-item {
-  border-radius: 50%;
-  
-}
+/* .social-item {
+} */
 .social-link-href {
   display: flex;
   justify-content: center;
@@ -398,11 +396,38 @@ margin-bottom: 30px;
 background-color: var(--accent);
 color: var(--button-text-color);
 }
+
+
 .social-link-svg {
   fill: currentColor;
   
 }
 
+/* Постоянные клиенты regular-clients */
+
+.list-clients {
+  display: flex;
+  justify-content: space-between;
+}
+.link-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color: #afb1b8;
+  }
+.link-clients:hover,
+.link-clients:focus {
+  /* background-color: var(#fff); */
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.clients-svg {
+  fill: currentColor;
+}
 
 /* footer */
 
