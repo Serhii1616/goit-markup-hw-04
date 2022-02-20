@@ -25,8 +25,22 @@
                 </ul>
             </nav>
             <ul class="contacts">
-                <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contacts-item"><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-item">
+                    <a class="contacts-link" href="mailto:info@devstudio.com">
+                        <svg class="icon-leter" width="16" height="16">
+                            <use href="./images/SVG/envelope.svg#icon-envelope">
+                            </use>
+                        </svg>info@devstudio.com
+                    </a>
+                </li>
+                <li class="contacts-item">
+                    <a class="contacts-link" href="tel:+380961111111">
+                        <svg class="icon-leter" width="16" height="16">
+                            <use href="./images/SVG/smartphone.svg#icon-smartphone">
+                            </use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -176,14 +190,16 @@
 
     <!-- footer section -->
 
-        <footer class="footer">
-            <div class="conteiner">
+    <footer class="footer">
+        <div class="conteiner flex">
+            <div>
                 <a class="logo pic" href="./index.html"><span class="accent-logo">Web</span>
                     <span class="white-logo">Studio</span></a>
                 <address>
                     <ul class="list contact">
-                        <li><a class="address" href="https://goo.gl/maps/oT1dce25CPHanEmV9" target="blank"
-                                rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26
+                        <li><a class="address" href="https://goo.gl/maps/oT1dce25CPHanEmV9"
+                            target="blank"
+                            rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
                         <li>
@@ -195,6 +211,40 @@
                     </ul>
                 </address>
             </div>
-        </footer>
+            <div class="contact-wrapper">
+                <h2 class="footer-join">присоединяйтесь</h2>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a class="social-link-href link-style" href="">
+                            <svg width="20" height="20" class="social-link-svg">
+                                <use href="./images/icon-social-svg/social.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link-href link-style" href="">
+                            <svg width="20" height="20" class="social-link-svg">
+                                <use href="./images/icon-social-svg/social.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link-href link-style" href="">
+                            <svg width="20" height="20" class="social-link-svg">
+                                <use href="./images/icon-social-svg/social.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link-href link-style" href="">
+                            <svg width="20" height="20" class="social-link-svg">
+                                <use href="./images/icon-social-svg/social.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>                
 </body>
 </html>
